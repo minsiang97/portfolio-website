@@ -8,7 +8,13 @@ const HomeStyled = styled.div`
   width: 100vw;
 
   .typewriter {
-    font-size: 30px;
+    color: #fff;
+  }
+
+  .name {
+    background: linear-gradient(#80ffdb, #64dfdf, #48bfe3, #5390d9, #5e60ce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 `;
 
